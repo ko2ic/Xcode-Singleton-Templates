@@ -1,7 +1,7 @@
-Xcode-Templates
+Xcode-Singlton-Templates
 ===============
-
-This Singlton template class is that the code shown below will pass. 
+These are templates of Singlton class and the TestCase.
+Code shown below is a part of testcase template which will pass. 
 ```
     KO2Abc* a = [KO2Abc sharedInstance];
     KO2Abc* b = [[KO2Abc alloc] init];
@@ -20,9 +20,16 @@ This Singlton template class is that the code shown below will pass.
 
 # install #
 
-* ```git clone https://github.com/ko2ic/Xcode-Templates.git```
-* ```cd Xcode-Templates```
+* ```git clone https://github.com/ko2ic/Xcode-Singlton-Templates.git```
+* ```cd Xcode-Singlton-Templates ```
 * ```./install-templates.sh```
 
 # uninstall #
 * ```./uninstall-templates.sh```
+
+# Usage #
+* When you create new file, you can select singlton as follow.
+![ScreenShot](https://raw.github.com/ko2ic/ImageRepository/master/Xcode-Singlton-Templates/screenshot1.png) 
+
+* In case of testcase template, you can select Test Library which Kiwi or XCTest or SenTest.
+![ScreenShot](https://raw.github.com/ko2ic/ImageRepository/master/Xcode-Singlton-Templates/screenshot2.png) 
