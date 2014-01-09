@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+	</array>
+    <key>BuildableType</key>
+    <string>Test</string>
+	<key>DefaultCompletionName</key>
+	<string>Objective-C SingltonTest Class</string>
+	<key>Description</key>
+	<string>An Objective-C Test Case for Singlton.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.m</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>testedClass</string>
+			<key>Description</key>
+			<string>What would you like to test?</string>
+			<key>Name</key>
+			<string>Tested Class</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Library</string>
+			<key>Name</key>
+			<string>Test Library</string>
+			<key>Description</key>
+			<string>The Test Library that you have been using.</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Kiwi</string>
+			<key>Values</key>
+			<array>
+				<string>Kiwi</string>
+				<string>XCTest</string>
+				<string>SenTest</string>
+			</array>
+			<key>NotPersisted</key>
+			<false/>
+		</dict>
+        <dict>
+            <key>Default</key>
+            <string>___VARIABLE_testedClass:identifier___Test</string>
+            <key>Identifier</key>
+            <string>productName</string>
+            <key>Type</key>
+            <string>static</string>
+        </dict>        
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
+	</array>
+	<key>Summary</key>
+	<string>An Objective-C Test Case for Singlton. </string>
+</dict>
+</plist>
