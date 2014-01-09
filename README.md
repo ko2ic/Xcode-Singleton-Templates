@@ -1,0 +1,2 @@
+Xcode-Singlton-Templates
+========================
