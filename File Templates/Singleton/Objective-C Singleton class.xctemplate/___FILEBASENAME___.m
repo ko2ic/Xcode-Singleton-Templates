@@ -10,7 +10,7 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-static ___FILEBASENAMEASIDENTIFIER___ *SINGLTON = nil;
+static ___FILEBASENAMEASIDENTIFIER___ *SINGLETON = nil;
 
 static bool isFirstAccess = YES;
 
@@ -21,10 +21,10 @@ static bool isFirstAccess = YES;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         isFirstAccess = NO;
-        SINGLTON = [[super allocWithZone:NULL]init];    
+        SINGLETON = [[super allocWithZone:NULL]init];    
     });
     
-    return SINGLTON;
+    return SINGLETON;
 }
 
 #pragma mark - Life Cycle
@@ -56,8 +56,8 @@ static bool isFirstAccess = YES;
 
 - (id) init
 {
-    if(SINGLTON){
-        return SINGLTON;
+    if(SINGLETON){
+        return SINGLETON;
     }
     if (isFirstAccess) {
         [self doesNotRecognizeSelector:_cmd];

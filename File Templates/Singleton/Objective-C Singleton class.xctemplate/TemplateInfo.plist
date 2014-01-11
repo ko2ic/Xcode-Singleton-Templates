@@ -11,9 +11,9 @@
 	<key>ChooserOnly</key>
 	<true/>
 	<key>DefaultCompletionName</key>
-	<string>SingltonClass</string>
+	<string>SingletonClass</string>
 	<key>Description</key>
-	<string>An Objective-C Singlton class, with implementation and header files.</string>
+	<string>An Objective-C Singleton class, with implementation and header files.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -40,6 +40,6 @@
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Summary</key>
-	<string>An Objective-C Singlton class</string>
+	<string>An Objective-C Singleton class</string>
 </dict>
 </plist>

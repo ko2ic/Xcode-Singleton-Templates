@@ -27,7 +27,7 @@
     [super tearDown];
 }
 
-- (void)testSinglton
+- (void)testSingleton
 {
     ___VARIABLE_testedClass:identifier___* a = [___VARIABLE_testedClass:identifier___ sharedInstance];
     ___VARIABLE_testedClass:identifier___* b = [[___VARIABLE_testedClass:identifier___ alloc] init];

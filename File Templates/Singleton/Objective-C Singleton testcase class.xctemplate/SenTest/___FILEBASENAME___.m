@@ -27,7 +27,7 @@
     [super tearDown];
 }
 
-- (void)testSinglton
+- (void)testSingleton
 {
     ___VARIABLE_testedClass:identifier___* a = [___VARIABLE_testedClass:identifier___ sharedInstance];
     ___VARIABLE_testedClass:identifier___* b = [[___VARIABLE_testedClass:identifier___ alloc] init];
@@ -36,11 +36,11 @@
     ___VARIABLE_testedClass:identifier___* e = [[___VARIABLE_testedClass:identifier___ alloc] copy];
     ___VARIABLE_testedClass:identifier___* f = [[___VARIABLE_testedClass:identifier___ alloc] mutableCopy];
 
-    STAssertEqualObjects(a, b, @"It should ensure singlton.");
-    STAssertEqualObjects(a, c, @"It should ensure singlton.");
-    STAssertEqualObjects(a, d, @"It should ensure singlton.");
-    STAssertEqualObjects(a, e, @"It should ensure singlton.");
-    STAssertEqualObjects(a, f, @"It should ensure singlton.");
+    STAssertEqualObjects(a, b, @"It should ensure singleton.");
+    STAssertEqualObjects(a, c, @"It should ensure singleton.");
+    STAssertEqualObjects(a, d, @"It should ensure singleton.");
+    STAssertEqualObjects(a, e, @"It should ensure singleton.");
+    STAssertEqualObjects(a, f, @"It should ensure singleton.");
 }
 
 - (void)testExample

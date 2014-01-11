@@ -9,8 +9,8 @@
 @interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
 
 /**
- * gets singlton object.
- * @return singlton
+ * gets singleton object.
+ * @return singleton
  */
 + (___FILEBASENAMEASIDENTIFIER___*)sharedInstance;
 
