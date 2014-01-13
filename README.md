@@ -28,8 +28,8 @@ Code shown below is a part of testcase template which will pass.
 * ```./uninstall-templates.sh```
 
 # Usage #
-* When you create new file, you can select singleton as follow.
+* When you create a new file, you can select singleton as follows..
 ![ScreenShot](https://raw.github.com/ko2ic/ImageRepository/master/Xcode-Singleton-Templates/screenshot1.png) 
 
-* In case of testcase template, you can select Test Library which Kiwi or XCTest or SenTest.
+* In case of the testcase template, you can select Test Library, which Kiwi or XCTest or SenTest.
 ![ScreenShot](https://raw.github.com/ko2ic/ImageRepository/master/Xcode-Singleton-Templates/screenshot2.png) 
