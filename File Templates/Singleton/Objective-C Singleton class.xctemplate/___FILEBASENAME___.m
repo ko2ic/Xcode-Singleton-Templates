@@ -21,7 +21,7 @@ static bool isFirstAccess = YES;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         isFirstAccess = NO;
-        SINGLETON = [[super allocWithZone:NULL]init];    
+        SINGLETON = [[super allocWithZone:NULL] init];    
     });
     
     return SINGLETON;
@@ -46,12 +46,12 @@ static bool isFirstAccess = YES;
 
 - (id)copy
 {
-    return [[___FILEBASENAMEASIDENTIFIER___ alloc]init];
+    return [[___FILEBASENAMEASIDENTIFIER___ alloc] init];
 }
 
 - (id)mutableCopy
 {
-    return [[___FILEBASENAMEASIDENTIFIER___ alloc]init];
+    return [[___FILEBASENAMEASIDENTIFIER___ alloc] init];
 }
 
 - (id) init
