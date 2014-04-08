@@ -20,7 +20,7 @@ Code shown below is a part of testcase template which will pass.
 
 # install #
 
-If you are using Alcatraz, it will be able to use in there. 
+If you are using Alcatraz, it will be able to use in there.  
 https://github.com/supermarin/Alcatraz
 
 If you aren't using Alcatraz, it is as follows.
