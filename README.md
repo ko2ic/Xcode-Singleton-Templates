@@ -20,6 +20,10 @@ Code shown below is a part of testcase template which will pass.
 
 # install #
 
+If you are using Alcatraz, it will be able to use in there. 
+https://github.com/supermarin/Alcatraz
+
+If you aren't using Alcatraz, it is as follows.
 * ```git clone https://github.com/ko2ic/Xcode-Singleton-Templates.git```
 * ```cd Xcode-Singleton-Templates ```
 * ```./install-templates.sh```
