@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/ko2ic/xcode-singleton-templates.png?label=ready&title=Ready)](https://waffle.io/ko2ic/xcode-singleton-templates)
 Xcode-Singleton-Templates
 ===============
 These are templates of Singleton class and the TestCase.
